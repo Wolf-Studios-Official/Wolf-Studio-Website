@@ -92,10 +92,15 @@ const config = {
             label: 'Docs',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Wolf-Studios-Official/Wolf-Studio-Website',
             label: 'GitHub',
             position: 'right',
           },
+          {
+            href: 'https://discord.gg/yc27sP6cm6',
+            label: 'Discord',
+            position: 'right',
+          }
         ],
       },
       footer: {
