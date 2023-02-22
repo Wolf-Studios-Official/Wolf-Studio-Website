@@ -78,6 +78,12 @@ const config = {
         disableSwitch: true,
         respectPrefersColorScheme: false,
       },
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
+      },
       navbar: {
         title: 'Wolf Studios Website',
         logo: {
