@@ -65,7 +65,19 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
+      announcementBar: {
+        id: 'announcement_bar',
+        content:
+          'Welcome to Wolf Studios official website! Maintained by Flas4hPT',
+        backgroundColor: '#87CEEB',
+        textColor: '#000000',
+        isCloseable: false,
+      },
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
       navbar: {
         title: 'Wolf Studios Website',
         logo: {
