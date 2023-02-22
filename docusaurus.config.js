@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Wolf Studios Website',
+  tagline: 'Wolves are cool!',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -44,6 +44,8 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/Wolf-Studios-Official/Wolf-Studio-Website/tree/main',
+            showLastUpdateAuthor: true,
+            showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
