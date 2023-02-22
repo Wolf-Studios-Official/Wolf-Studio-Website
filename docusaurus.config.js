@@ -82,7 +82,7 @@ const config = {
         title: 'Wolf Studios Website',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/favicon.ci',
+          src: 'img/favicon-32x32.png',
         },
         items: [
           {
