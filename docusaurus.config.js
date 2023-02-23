@@ -84,7 +84,11 @@ const config = {
           autoCollapseCategories: true,
         },
       },
-     
+      logo: {
+        alt: 'Wolf Studios Logo',
+        src: '/img/wolfstudios.jpg',
+        href: 'https://discord.gg/yc27sP6cm6',
+      },
       navbar: {
         title: 'Wolf Studios Website',
         logo: {
@@ -114,11 +118,7 @@ const config = {
         style: 'dark',
         links: [
         ],
-        logo: {
-          alt: 'Wolf Studios Logo',
-          src: '/img/favicon-32x32.png',
-          href: 'https://discord.gg/yc27sP6cm6',
-        },
+        
         copyright: `Copyright © ${new Date().getFullYear()} Wolf Studios Official, Inc. Built with Docusaurus.`,
       },
       prism: {
