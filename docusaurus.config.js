@@ -46,13 +46,6 @@ const config = {
             'https://github.com/Wolf-Studios-Official/Wolf-Studio-Website/tree/main',
             showLastUpdateAuthor: true,
             showLastUpdateTime: true,
-            lastVersion: 'current',
-      versions: {
-        current: {
-          label: '1.0.0',
-          path: '1.0.0',
-        },
-      },
         },
         blog: {
           showReadingTime: true,
