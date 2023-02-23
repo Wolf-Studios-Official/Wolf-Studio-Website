@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Commissions": {
+    "message": "Commissions",
+    "description": "The label for category Commissions in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.English": {
+    "message": "English",
+    "description": "The label for category English in sidebar tutorialSidebar"
+  }
+}
