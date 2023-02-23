@@ -99,7 +99,7 @@ const config = {
           },
           {
             type: 'localeDropdown',
-            position: 'left',
+            position: 'right',
           },
           {
             href: 'https://github.com/Wolf-Studios-Official/Wolf-Studio-Website',
