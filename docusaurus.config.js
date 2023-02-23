@@ -84,6 +84,7 @@ const config = {
           autoCollapseCategories: true,
         },
       },
+      image: 'img/favicon.ico',
       navbar: {
         title: 'Wolf Studios Website',
         logo: {
@@ -113,13 +114,18 @@ const config = {
         style: 'dark',
         links: [
         ],
+        
         copyright: `Copyright © ${new Date().getFullYear()} Wolf Studios Official, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+
+
+      
     }),
 };
 
 module.exports = config;
+
