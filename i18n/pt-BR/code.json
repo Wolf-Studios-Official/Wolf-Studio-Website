@@ -358,7 +358,7 @@
     "description": "The text for the link to report missing results"
   },
   "theme.SearchModal.placeholder": {
-    "message": "Search docs",
+    "message": "Pesquisar documentos",
     "description": "The placeholder of the input of the DocSearch pop-up modal"
   },
   "theme.SearchPage.documentsFound.plurals": {
