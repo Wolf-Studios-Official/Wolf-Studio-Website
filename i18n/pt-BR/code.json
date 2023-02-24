@@ -378,7 +378,7 @@
     "description": "The placeholder for search page input"
   },
   "theme.SearchPage.inputLabel": {
-    "message": "Buscar",
+    "message": "Pesquisar",
     "description": "The ARIA label for search page input"
   },
   "theme.SearchPage.algoliaLabel": {
