@@ -118,7 +118,6 @@ const config = {
         logo: {
           alt: 'My Site Logo',
           src: 'img/favicon-32x32.png',
-          style: 'primary',
         },
         items: [
           {
