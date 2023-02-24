@@ -118,6 +118,7 @@ const config = {
         logo: {
           alt: 'My Site Logo',
           src: 'img/favicon-32x32.png',
+          style: 'primary',
         },
         items: [
           {
@@ -134,6 +135,7 @@ const config = {
             href: 'https://github.com/Wolf-Studios-Official/Wolf-Studio-Website',
             label: 'GitHub',
             position: 'right',
+            className: 'header-github-link'
           },
           {
             href: 'https://discord.gg/yc27sP6cm6',
