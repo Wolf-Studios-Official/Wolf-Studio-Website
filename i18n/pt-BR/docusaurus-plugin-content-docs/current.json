@@ -6,5 +6,9 @@
   "sidebar.tutorialSidebar.category.Commissions": {
     "message": "Comissões",
     "description": "The label for category Commissions in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Partnerships": {
+    "message": "Parceria",
+    "description": "The label for category Partnerships in sidebar tutorialSidebar"
   }
 }
