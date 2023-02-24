@@ -27,3 +27,7 @@
   --ifm-color-primary-lighter: #26a6ff;
   --ifm-color-primary-lightest: #4db5ff;
 }
+body {
+  font-family: Source Sans Pro, 'sans-serif';
+  font-size: 18px;
+}
