@@ -266,7 +266,7 @@
     "message": "See all {count} results"
   },
   "theme.SearchBar.label": {
-    "message": "Buscar",
+    "message": "Pesquisar",
     "description": "The ARIA label and placeholder for search button"
   },
   "theme.SearchModal.searchBox.resetButtonTitle": {
