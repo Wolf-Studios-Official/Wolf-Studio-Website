@@ -31,3 +31,7 @@ body {
   font-family: Source Sans Pro, 'sans-serif';
   font-size: 18px;
 }
+code,
+pre {
+  font-family: IBM Plex Mono, 'monospace';
+}
