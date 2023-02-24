@@ -3,8 +3,8 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.Commissions": {
-    "message": "Commissions",
+  "sidebar.tutorialSidebar.category.Comissions": {
+    "message": "Comissões",
     "description": "The label for category Commissions in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.English": {
