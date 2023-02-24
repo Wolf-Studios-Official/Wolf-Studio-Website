@@ -27,7 +27,3 @@
   --ifm-color-primary-lighter: #26a6ff;
   --ifm-color-primary-lightest: #4db5ff;
 }
-@font-face {
-  font-family: 'Caroline';
-  src: url('/font/Caroline.otf');
-}
