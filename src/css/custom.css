@@ -18,7 +18,7 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+html[data-theme='dark'] {
   --ifm-color-primary: #0096ff;
   --ifm-color-primary-dark: #0087e6;
   --ifm-color-primary-darker: #007fd9;
@@ -26,6 +26,8 @@
   --ifm-color-primary-light: #1aa0ff;
   --ifm-color-primary-lighter: #26a6ff;
   --ifm-color-primary-lightest: #4db5ff;
+  --ifm-footer-background-color: #032947;
+
 }
 body {
   font-family: Source Sans Pro, 'sans-serif';
