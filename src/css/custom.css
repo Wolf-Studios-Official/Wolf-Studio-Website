@@ -29,11 +29,7 @@ html[data-theme='dark'] {
   --ifm-footer-background-color: #032947;
 
 }
-body {
-  font-family: Times New Roman, 'sans-serif';
-  font-size: 18px;
 
-}
 .header-github-link::before {
   content: '';
   width: 24px;
