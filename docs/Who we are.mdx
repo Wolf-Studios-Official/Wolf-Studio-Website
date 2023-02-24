@@ -2,6 +2,17 @@
 title: Who we are?
 sidebar_position: 2
 ---
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '2px',
+      color: '#fff',
+      padding: '0.2rem',
+    }}>
+    {children}
+  </span>
+);
 <div className="avatar">
   <img
     className="avatar__photo avatar_photo--sm"
@@ -11,6 +22,6 @@ sidebar_position: 2
   </div>
 </div>
 
-<span class="badge badge--info">Info</span>
+<Highlight color="#1F51FF">Information</Highlight>
 
 Wolf Studio's was founded in Feb 10, 2023, to create websites for free to people who can't... Using docusaurus!  For example, we publish to CloudFare Pages, but we use our own studio website in Netlify...
