@@ -2,14 +2,25 @@
 title: Como isto funciona?
 sidebar_position: 1
 ---
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '2px',
+      color: '#fff',
+      padding: '0.2rem',
+    }}>
+    {children}
+  </span>
+);
 <div className="avatar">
   <img
     className="avatar__photo avatar_photo--sm"
     src="https://avatars.githubusercontent.com/u/93576144?v=4" />
   <div className="avatar_intro">
-    <div className="avatar__name">Publicado TiagoVXII</div>
+    <div className="avatar__name">Publicado por TiagoVXII</div>
   </div>
 </div>
 
-Bem, primeiro você precisa [entrar](https://discord.gg/yc27sP6cm6) nosso servidor de discórdia e se inscrever! Fácil! Se você é um criador de site SCP em SCP:RP, basta olhar este tópico [aqui](https://discord.com/channels/1050232152815571055/1075012719884910623)
+Bem, primeiro você precisa [entrar](https://discord.gg/yc27sP6cm6) nosso servidor de discórdia e se inscrever! Fácil! Se você é um criador de site <Highlight color="#1877F2">SCP</Highlight> em SCP:RP, basta olhar este tópico [aqui](https://discord.com/channels/1050232152815571055/1075012719884910623)
 
