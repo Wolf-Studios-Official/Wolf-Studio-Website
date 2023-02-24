@@ -132,9 +132,9 @@ const config = {
           },
           {
             href: 'https://github.com/Wolf-Studios-Official/Wolf-Studio-Website',
-            label: 'GitHub',
             position: 'right',
-            className: 'header-github-link'
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
           },
           {
             href: 'https://discord.gg/yc27sP6cm6',
