@@ -10,5 +10,9 @@
   "sidebar.tutorialSidebar.category.Partnerships": {
     "message": "Parceiros",
     "description": "The label for category Partnerships in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Our Team": {
+    "message": "Our Team",
+    "description": "The label for category Our Team in sidebar tutorialSidebar"
   }
 }
