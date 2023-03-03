@@ -126,8 +126,8 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        plugins: [require.resolve('docusaurus-lunr-search')]
       },
-      plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
     }),
 };
 
