@@ -124,11 +124,13 @@ const config = {
         },
         copyright: `Copyright © ${new Date().getFullYear()} Wolf Studios Official, Inc. Built with Docusaurus.`,
       },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      }, 
-    }),
+    },
+    prism: {
+      theme: lightCodeTheme,
+      darkTheme: darkCodeTheme,
+    },
+    plugins: [require.resolve('docusaurus-lunr-search')],
+  }),
 };
 
 module.exports = config;
