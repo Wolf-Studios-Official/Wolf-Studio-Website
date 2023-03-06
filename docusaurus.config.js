@@ -87,7 +87,6 @@ const config = {
       sidebar: {
         autoCollapseCategories: true,
       },
-      plugins: [require.resolve('docusaurus-lunr-search')],
       navbar: {
         title: 'Sigma-9 Documentation',
         logo: {
@@ -127,6 +126,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
       },
     }),
 };
