@@ -88,7 +88,6 @@ const config = {
         autoCollapseCategories: true,
       },
       navbar: {
-        title: 'Sigma-9 Documentation',
         logo: {
           alt: 'My Site Logo',
           src: 'img/favicon-32x32.png',
