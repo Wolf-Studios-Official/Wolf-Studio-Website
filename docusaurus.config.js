@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Sigma-9 Documentation',
+  title: 'Wolf Studios Website',
   tagline: '',
   favicon: 'img/favicon.ico',
   
@@ -45,7 +45,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-           'https://github.com/TiagoVXII/s9website/tree/main',
+           'https://github.com/Wolf-Studios-Official/Wolf-Studio-Website/tree/main',
            showLastUpdateAuthor: true,
            showLastUpdateTime: true,
            
