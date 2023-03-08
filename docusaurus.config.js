@@ -1,7 +1,9 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+// @ts-ignore
 const lightCodeTheme = require('prism-react-renderer/themes/github');
+// @ts-ignore
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
@@ -63,10 +65,27 @@ const config = {
       }),
     ],
   ],
-  
+  themes: [
+    // ... Your other themes.
+    [
+      // @ts-ignore
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      // @ts-ignore
+      ({
+        hashed: true,
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: false,
+      }),
+    ],
+  ],
+};
 
+  // @ts-ignore
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    // @ts-ignore
     ({
       // Replace with your project's social card
       image: 'img/favicon.ico',
@@ -126,18 +145,5 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-    themes: [
-      [
-        // @ts-ignore
-        require.resolve("@easyops-cn/docusaurus-search-local"),
-        /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
-        // @ts-ignore
-        ({
-          hashed: true,
-          docsRouteBasePath: '/',
-        }),
-      ],
-    ],
-  };
 
 module.exports = config;
