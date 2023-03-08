@@ -50,8 +50,8 @@ const config = {
            showLastUpdateTime: true,
            versions: {
             current: {
-              label: 'current',
-            },
+              label: '1.0.1',
+            }
           },
           lastVersion: 'current',
       },
