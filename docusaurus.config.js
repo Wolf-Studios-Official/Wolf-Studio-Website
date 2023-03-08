@@ -1,9 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-// @ts-ignore
 const lightCodeTheme = require('prism-react-renderer/themes/github');
-// @ts-ignore
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
@@ -65,27 +63,10 @@ const config = {
       }),
     ],
   ],
-  themes: [
-    // ... Your other themes.
-    [
-      // @ts-ignore
-      require.resolve("@easyops-cn/docusaurus-search-local"),
-      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
-      // @ts-ignore
-      ({
-        hashed: true,
-        indexDocs: true,
-        indexBlog: false,
-        indexPages: false,
-      }),
-    ],
-  ],
-};
+  
 
-  // @ts-ignore
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    // @ts-ignore
     ({
       // Replace with your project's social card
       image: 'img/favicon.ico',
@@ -97,7 +78,7 @@ const config = {
       announcementBar: {
         id: 'announcement_bar',
         content:
-          'This website is still under progress, any issues contact me.',
+          'This website is still under progress.',
         backgroundColor: '#7F00FF',
         textColor: '#FFFFFF',
         isCloseable: false,
@@ -136,14 +117,31 @@ const config = {
      logo: {
       alt: 'Image',
       src: '/img/wolfstudios.jpg',
-      href: 'https://discord.gg/zuvfkFD2td',
+      href: '/',
       },
-        copyright: `Copyright © ${new Date().getFullYear()} Wolf Studios Website, Inc. Built with Docusaurus`,
+        copyright: `Copyright © ${new Date().getFullYear()} Sigma-9 "Valkyries", Inc. Built with Docusaurus`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
     }),
+    themes: [
+      // ... Your other themes.
+      [
+        // @ts-ignore
+        require.resolve("@easyops-cn/docusaurus-search-local"),
+        /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+        // @ts-ignore
+        ({
+
+          hashed: true,
+          indexBlog: false,
+          indexDocs: true,
+          indexPages: false,
+        }),
+      ],
+    ],
+  };
 
 module.exports = config;
