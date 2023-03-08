@@ -13,7 +13,7 @@ const config = {
   
 
   // Set the production url of your site here
-  url: 'https://s9website.pages.dev/',
+  url: 'N/A',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -54,8 +54,6 @@ const config = {
           showReadingTime: false,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/TiagoVXII/s9website/tree/main',
         },
         
        
@@ -91,7 +89,7 @@ const config = {
       navbar: {
         logo: {
           alt: 'My Site Logo',
-          src: 'img/favicon-32x32.png',
+          src: 'img/wolfstudios.jpg',
         },
         items: [
           {
@@ -105,7 +103,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/TiagoVXII/s9website',
+            href: 'https://github.com/Wolf-Studios-Official/Wolf-Studio-Website',
             label: 'GitHub',
             position: 'right',
           },
@@ -118,10 +116,10 @@ const config = {
             ],
      logo: {
       alt: 'Image',
-      src: '/img/Captura_de_Ecra_8.png',
+      src: '/img/wolfstudios.jpg',
       href: 'https://discord.gg/zuvfkFD2td',
       },
-        copyright: `Copyright © ${new Date().getFullYear()} Sigma-9 "Valkyries", Inc. Built with Docusaurus`,
+        copyright: `Copyright © ${new Date().getFullYear()} Wolf Studios Website, Inc. Built with Docusaurus`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -130,8 +128,10 @@ const config = {
     }),
     themes: [
       [
+        // @ts-ignore
         require.resolve("@easyops-cn/docusaurus-search-local"),
         /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+        // @ts-ignore
         ({
           hashed: true,
           docsRouteBasePath: '/',
