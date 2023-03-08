@@ -48,14 +48,9 @@ const config = {
            'https://github.com/Wolf-Studios-Official/Wolf-Studio-Website/tree/main',
            showLastUpdateAuthor: true,
            showLastUpdateTime: true,
-           versions: {
-            current: {
-              label: '1.0.1',
-            }
-          },
-          lastVersion: 'current',
-      },
-       blog: {
+           
+        },
+        blog: {
           showReadingTime: false,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -111,10 +106,6 @@ const config = {
             href: 'https://github.com/Wolf-Studios-Official/Wolf-Studio-Website',
             label: 'GitHub',
             position: 'right',
-          },
-          {
-            type: "docsVersionDropdown",
-            position: "right",
           },
         ],
       },
