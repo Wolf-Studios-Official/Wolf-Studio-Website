@@ -78,7 +78,7 @@ const config = {
       announcementBar: {
         id: 'announcement_bar',
         content:
-          'This website is still under progress, any issues contact your FL.',
+          'This website is still under progress, any issues contact me.',
         backgroundColor: '#7F00FF',
         textColor: '#FFFFFF',
         isCloseable: false,
