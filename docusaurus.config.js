@@ -48,13 +48,6 @@ const config = {
            'https://github.com/Wolf-Studios-Official/Wolf-Studio-Website/tree/main',
            showLastUpdateAuthor: true,
            showLastUpdateTime: true,
-           lastVersion: 'current',
-      versions: {
-        current: {
-          label: 'current',
-          path: '1.0.1',
-        },
-      },
         },
         blog: {
           showReadingTime: false,
