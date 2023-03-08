@@ -136,9 +136,7 @@ const config = {
         ({
 
           hashed: true,
-          indexBlog: false,
-          indexDocs: true,
-          indexPages: false,
+          docsRouteBasePath: '/',
         }),
       ],
     ],
